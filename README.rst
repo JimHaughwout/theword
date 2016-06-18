@@ -12,8 +12,8 @@ Installation
 
 TODO - Will use pip
 
-What's the word?
-----------------
+Usage
+------
 
 *Zen of Python*-style fun from any command line:
 
@@ -29,23 +29,20 @@ What's the word?
     A well a bird, bird, bird, b-bird's the word
     A well a bird, bird, b-bird's the word
 
-Using the word
---------------
-
-You can import any of the following:
+Using iPython or in code you can import any of the following:
 
 .. code:: python
 
     from theword import TheWord, TheBird, what_is_the_word
 
-Seeing the question:
+Show the question:
 
 .. code:: python
 
     >>> TheWord().question
     "What's the word?"
 
-Asking the question (and seeing the answer):
+Ask the question (and see the answer):
 
 .. code:: python
 
@@ -65,7 +62,7 @@ More quirky fun:
     >>> b.play() # Hear the word
     >>> b.celebrate() # Prepare to laugh
 
-    # TheWord inherets TheBird - everyone's heard this
+    # TheWord is TheBird - everyone's heard this
     >>> isinstance(TheWord(), TheBird)
     True
     >>> TheWord().__dict__

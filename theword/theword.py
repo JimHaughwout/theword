@@ -8,7 +8,7 @@ import webbrowser
 # Show console users that the bird is the word
 # Just like `import this`
 
-print """Surfin' Bird, by The Trashmen
+print """_Surfin'_Bird_, by The Trashmen
 
 A well a everybody's heard about the bird
 Bird, bird, bird, b-bird's the word
