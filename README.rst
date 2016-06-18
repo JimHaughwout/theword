@@ -1,10 +1,10 @@
 theword
 =======
 
-Inspired by Python's ``import this``, `*The
-Trashmen* <https://www.youtube.com/watch?v=aPrtFxd9u9Y>`__, and `*The
-Family Guy* <https://www.youtube.com/watch?v=2WNrx2jq184>`__,
-**theword** is quirky library to answer that eternal question, "What's
+Inspired by Python's ``import this``, `The
+Trashmen <https://www.youtube.com/watch?v=aPrtFxd9u9Y>`__, and `The
+Family Guy <https://www.youtube.com/watch?v=2WNrx2jq184>`__,
+**theword** is a quirky library to answer that eternal question, "What's
 the word?".
 
 Installation
