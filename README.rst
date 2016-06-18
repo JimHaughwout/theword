@@ -1,21 +1,22 @@
 theword
 =======
 
+|Build Status|
+
 Inspired by Python's ``import this``, `The
 Trashmen <https://www.youtube.com/watch?v=aPrtFxd9u9Y>`__, and `The
-Family Guy <https://www.youtube.com/watch?v=2WNrx2jq184>`__,
-**theword** is a quirky library to answer that eternal question, "What's
-the word?".
+Family Guy <https://www.youtube.com/watch?v=2WNrx2jq184>`__, **theword**
+is quirky library to answer that eternal question, "What's the word?".
 
 Installation
 ------------
 
-TODO - Will use pip
+TODO - Will submit to pypi when done
 
-Usage
-------
+Emulating Zen of Python
+-----------------------
 
-*Zen of Python*-style fun from any command line:
+From any command line:
 
 .. code:: sh
 
@@ -29,13 +30,16 @@ Usage
     A well a bird, bird, bird, b-bird's the word
     A well a bird, bird, b-bird's the word
 
-Using iPython or in code you can import any of the following:
+General Usage
+-------------
+
+You can import any of the following:
 
 .. code:: python
 
     from theword import TheWord, TheBird, what_is_the_word
 
-Show the question:
+See the question:
 
 .. code:: python
 
@@ -62,8 +66,11 @@ More quirky fun:
     >>> b.play() # Hear the word
     >>> b.celebrate() # Prepare to laugh
 
-    # TheWord is TheBird - everyone's heard this
+    # TheWord inherets TheBird - everyone's heard this
     >>> isinstance(TheWord(), TheBird)
     True
     >>> TheWord().__dict__
     {'released': 1964, 'message': "Bird, bird, bird, b-bird's the word", 'artist': 'The Trashmen', 'question': "What's the word?", 'title': "Surfin' Bird"}
+
+.. |Build Status| image:: https://travis-ci.org/geopy/geopy.svg?branch=master
+   :target: https://travis-ci.org/JimHaughwout/theword.svg?branch=dev
