@@ -5,4 +5,4 @@ python:
     - "2.7"
     - "3.3"
     - "pypy"
-script: make test
+script: "python setup.py develop && nosetests -w tests/"
