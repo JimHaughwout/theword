@@ -1,8 +1,11 @@
 language: python
-install:
-    - pip install coverage --quiet
 python:
-    - "2.7"
-    - "3.3"
-    - "pypy"
-script: "python setup.py develop && nosetests -w tests/"
+  - "2.7"
+  - "3.2"
+  - "3.3"
+  - "3.4"
+  - "3.5"
+# command to install dependencies
+install: "pip install -r requirements.txt"
+# command to run tests
+script: nosetests
