@@ -10,8 +10,12 @@ is a quirky library to answer that eternal question, "What's the word?".
 
 Installation
 ------------
+From any command line:
 
-TODO - Will submit to PyPI when done
+.. code:: sh
+    $ pip install git+https://github.com/JimHaughwout/theword.git
+
+**TODO:** Complete PyPI submission.
 
 Emulating the Zen of Python
 ---------------------------
