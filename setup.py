@@ -9,6 +9,7 @@ setup(
     author_email='haughwout@alum.mit.edu',
     description='Humor inspired by `import this` and _The Trashmen_',
     url='https://github.com/JimHaughwout/theword',
+    download_url = 'https://github.com/JimHaughwout/theword/tarball/1.0.1', 
     version='1.0.1b1',
     packages=['theword', ],
     package_dir={'theword':'theword'},
