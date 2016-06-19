@@ -6,7 +6,7 @@ theword
 Inspired by Python's ``import this``, `The
 Trashmen <https://www.youtube.com/watch?v=aPrtFxd9u9Y>`__, and `The
 Family Guy <https://www.youtube.com/watch?v=2WNrx2jq184>`__, **theword**
-is a quirky library to answer that eternal question, "What's the word?".
+is a quirky library to answer that eternal question, "What's the word?"
 
 Installation
 ------------
@@ -14,9 +14,7 @@ From any command line:
 
 .. code:: sh
 
-    $ pip install git+https://github.com/JimHaughwout/theword.git
-
-**TODO:** Complete PyPI submission.
+    $ pip install theword
 
 Emulating the Zen of Python
 ---------------------------
