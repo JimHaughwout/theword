@@ -8,22 +8,25 @@ class TheWordTest(unittest.TestCase):
 		"""
 		Tests class inheritance
 		"""
-		self.assertIsInstance(tw.TheWord(), tw.TheBird)
+		self.assertIsInstance(tw.TheBird(), tw.TheWord)
 
 
 	def test_assignment(self):
 		"""
 		Tests assignment
 		"""
-		self.assertEquals(1964, tw.TheBird().released)
+		self.assertEquals("What's the word?", tw.TheWord().question)
+		self.assertEquals("The Bird", tw.TheBird().id)
 
 
 	def test_question(self):
 		"""
 		Tests results of external function call
 		"""
-		self.assertEquals("Bird, bird, bird, b-bird's the word", 
-			tw.what_is_the_word().message)
+		self.assertEquals("The Bird", tw.what_is_the_word().id)
+		self.assertEquals("What's the word?", tw.what_is_the_word().question)
+		self.assertEquals("[E]verybody knows that the bird is the word!", 
+			tw.what_is_the_word().answer)
 
 
 	def test_song_link(self):
