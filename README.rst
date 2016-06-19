@@ -13,6 +13,7 @@ Installation
 From any command line:
 
 .. code:: sh
+
     $ pip install git+https://github.com/JimHaughwout/theword.git
 
 **TODO:** Complete PyPI submission.
