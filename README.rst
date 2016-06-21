@@ -19,7 +19,7 @@ From any command line:
 Emulating the Zen of Python
 ---------------------------
 
-From any command line:
+From any command line: 
 
 .. code:: sh
 
