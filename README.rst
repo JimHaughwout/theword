@@ -1,7 +1,8 @@
 theword
 =======
 
-|Build Status|
+.. image:: https://travis-ci.org/JimHaughwout/theword.svg?branch=master
+    :target: https://travis-ci.org/JimHaughwout/theword
 
 Inspired by Python's ``import this``, `The
 Trashmen <https://www.youtube.com/watch?v=aPrtFxd9u9Y>`__, and `The
