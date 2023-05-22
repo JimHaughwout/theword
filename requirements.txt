@@ -1,1 +1,1 @@
-requests==2.20.0 # To test URLs to YouTube
+requests==2.31.0 # To test URLs to YouTube
